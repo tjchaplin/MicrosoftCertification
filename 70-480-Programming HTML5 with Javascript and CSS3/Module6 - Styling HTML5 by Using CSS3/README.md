@@ -38,3 +38,19 @@ display: -ms-flexbox;
 display: inline-flexbox;   // for an inline flexbox container
 display: -ms-inline-flexbox;
 ```
+
+## Link Attributes
+
+Need to be in specified order:
+Link - Las
+Visted - Vegas
+Hover - Hell's
+Acitive - Angles
+
+## Position 
+
+absolute - 
+fixed -
+relative -
+static -
+

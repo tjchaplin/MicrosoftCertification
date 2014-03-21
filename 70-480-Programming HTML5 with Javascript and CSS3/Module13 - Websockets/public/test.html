@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>adslfkj</title>
+</head>
+<body>
+<script type="text/javascript">
+	var socket = new WebSocket('ws://127.0.0.1:80');
+	socket.onopen = function() {
+	   // Web Socket Server is connected
+	   alert("Connection to server now open!");
+	   //send message etc ...
+	};
+	setInterval(function(){
+		console.log(socket);
+	},1000);
+</script>
+</body>
+</html>
